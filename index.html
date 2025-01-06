@@ -1,233 +1,536 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <title>¡Bienvenido a mi portafolio!</title>
-    <link rel="icon" href="ico/daftpunk.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style/sytle.css" type="text/css">
-    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet" />
-  </head>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>¡Bienvenido a mi portafolio!</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<!-- Font Google -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="images/daftpunk.ico" type="image/x-icon">
+</head>
 
-  <body>
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-
-    <div class="container-fluid p-4 text-white text-center"
-    style="background:
-    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('img/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvam9iNjY3LTEwLXBfMi1sMTNkMnNkMS5wbmc-removebg-preview.png') no-repeat center center;
-    background-color: #565656; 
-    background-size: cover;">
-        <h1>Oscar Alexis Rodriguez Rodriguez</h1> 
-        <p> Gozo desarrollar herramientas tecnológicas las cuales permitan facilitar el día a día de las personas. 
-                <br> 
-            Considero que el uso de la tecnología es vital hoy en día y me gustaría dejar una huella en ese camino.
-        </p> 
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0">Home</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">Sobre Mí</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Empleos</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Contacto</a> </li>
+      </ul>
     </div>
+  </div>
+</nav>
+<!-- Fin Navbar --> 
 
-    <!-- Barra de Navegación -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarToggler">
-          <ul class="navbar-nav me-auto mb-lg-0">
-            <li>
-              <a href="" class="text-white mx-2 navbar-brand" style="text-decoration: none;">
-                            Home
-                <img src="ico/house.ico" alt="CV" style="width: 35px;">
-            </a>
+<!-------Banner ------->
+<section class="banner" data-scroll-index='0'>
+  <div class="banner-overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <div class="banner-text">
+            <h2 class="white">Oscar Alexis Rodriguez Rodriguez</h2>
+            <h4 class="white my-4">¡Gracias por estar aqui!</h4>
+            <h5 class="white my-4">Soy un apasionado del desarrollo de herramientas tecnológicas que optimicen la vida diaria de las personas y las empresas.</h5>
+            <h6 class="white my-4">Mi objetivo es contribuir al crecimiento y avance de la tecnología, dejando una huella significativa en este campo.</h6>
+            <h6 class="white my-4"> Este portafolio refleja mi trabajo y crecimiento profesional, y espero que al explorarlo, puedas ver cómo he aplicado mi pasión por la tecnología en la creación de herramientas útiles y eficientes.</h6>
+          </div>
+        </div>
 
-            </li>
-
-            <li>
-              <a href="mailto:oscar.alexisrodriguez1@gmail.com" class="text-white mx-2" 
-                      style="text-decoration: none;" target="_blank" >
-                            E-Mail
-                <img src="ico/mail.ico" alt="Correo" style="width: 35px;">
-              </a>
-            </li>
-
-            <li>
-              <a href="https://wa.me/5569125402?text=¡Hola,%20Oscar!%20:D%20" class="text-white mx-2" 
-              style="text-decoration: none;" target="_blank">
-                Telefono
-                <img src="ico/chat.ico" alt="Teléfono" style="width: 35px;">
-              </a>
-            </li>
-
-            <li>
-              <a href="https://github.com/OscarAlexis124" class="text-white mx-2" 
-              style="text-decoration: none;" target="_blank">
-                Mi GIT
-                <img src="ico/git2.ico" alt="Git" style="width: 35px;">
-              </a>
-            </li>
-          </ul>
+        <div class="col-md-4">
+          <div class="team-detail wow fadeInUp" data-wow-delay="0.2s"> <img src="images/oscar.jpg"/>
+          </div>
         </div>
       </div>
-    </nav>
+    </div>
+  </div>
+  <span class="svg-wave"> </span> </section>
+<!-------Fin Banner-------> 
 
-    <!-- Sección Experiencia  -->
-    <section>
-     <h2 class="my-2 mx-2">Experiencia laboral</h2>  
-      <div class="container mt-5">
-        <div class="row my-5">
-          <div class="col-sm-4 col-md-4 col-l-4 col-xl-4">
-            <a href="pag/do.html" style="text-decoration: none;">
-              <div class="card">
-                <img class="card-img-top rounded mx-auto d-block mt-4" src="img/do.png" alt="Do.logical" style="width:50%">
-                <div class="card-body text-center">
-                  <h4 class="card-title">Do.Logical</h4>
-                  <p class="card-text" style="color: rgba(132, 132, 132, 0.976);">
-                    Soporte tecnológico 
-                        <br>
-                    Sep. 2019 - Mar. 2020
-                  </p>
+<!-------Sobre Mi------->
+<section class="about section-padding prelative" data-scroll-index='1'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Sobre Mí</h3>
+          <span class="line"></span>
+          <p>A lo largo de mi carrera, he tenido la oportunidad de trabajar en diversas áreas de la programación y el desarrollo de software, con experiencias que incluyen la creación de aplicaciones en C#, el diseño de interfaces para sistemas Windows, la administración de bases de datos en SQL Server, y el desarrollo de páginas web dinámicas utilizando tecnologías como PHP, HTML, Bootstrap, y JavaScript.</p>
+          <p>He trabajado en el diseño y desarrollo de soluciones a medida, como la creación de servicios web, APIs RESTful, implementando Angular y TypeScript. Mi experiencia también abarca la implementación de servicios en arquitecturas robustas como Windows Communication Foundation (WCF) y la creación de sistemas de gestión ERP/CRM integrados con herramientas como TELERIK y FullCalendar.</p>
+          <p>En mi tiempo libre me gusta mucho escuchar música, además de hacer mis propias canciones y publicarlas en mi canal de YouTube.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-------Sobre Mi Fin-------> 
+
+<!-------Empleos------->
+<section class="team section-padding" data-scroll-index='2'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Empleos</h3>
+          <span class="line"></span>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#" id="sweetAlertDological" style="text-decoration: none;">
+                <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/do.png" class="img-fluid"/>
+                  <h4>Do.Logical</h4>
+                  <h6>Soporte tecnológico</h6>
+                  <p>Sep. 2019 - Mar. 2020</p>
+                </div>              
+              </a>
+            </div>
+
+            <div class="col-md-4">
+              <a href="#" id="sweetAlertAceros" style="text-decoration: none;">
+                <div class="team-detail wow bounce" data-wow-delay="0.4s"> <img src="images/acero.jpg" class="img-fluid"/>
+                  <h4>Aceros Turia</h4>
+                  <h6>Desarrollardor Jr.</h6>
+                  <p>Nov. 2021 - Ago. 2022</p>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
+
+            <div class="col-md-4">
+              <a href="#" id="sweetAlertMaltia" style="text-decoration: none;">
+                <div class="team-detail wow bounce" data-wow-delay="0.6s"> <img src="images/mal.png" class="img-fluid"/>
+                  <h4>Cleversec</h4>
+                  <h6>Programador</h6>
+                  <p>Ago. 2022 - Sep. 2023</p>
+                </div>
+              </a>
+            </div>
           </div>
 
-          <div class="col-sm-4 col-md-4 col-l-4 col-xl-4">
-            <a href="pag/aceros.html" style="text-decoration: none;">
-              <div class="card">
-                <img class="card-img-top rounded mx-auto d-block mt-4" src="img/acero.jpg" alt="Aceros Turia" style="width:50%">
-                <div class="card-body text-center">
-                  <h4 class="card-title">Aceros Turia</h4>
-                  <p class="card-text" style="color: rgba(132, 132, 132, 0.976);">
-                    Desarrollardor Jr.
-                        <br>
-                    Nov. 2021 - Ago. 2022
-                  </p>
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#" id="sweetAlertBlue" style="text-decoration: none;">
+                <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/blue.jpg" class="img-fluid"/>
+                  <h4>Bluetab</h4>
+                  <h6>Technician</h6>
+                  <p>Sep. 2023 - Ene. 2024</p>
                 </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-sm-4 col-md-4 col-l-4 col-xl-4">
-            <a href="pag/clev.html" style="text-decoration: none;">
-              <div class="card">
-                <img class="card-img-top rounded mx-auto d-block mt-4" src="img/mal.png" alt="Cleversec" style="width:50%">
-                <div class="card-body text-center">
-                  <h4 class="card-title">Cleversec</h4>
-                  <p class="card-text" style="color: rgba(132, 132, 132, 0.976);">
-                    Programador
-                        <br>
-                    Ago. 2022 - Sep. 2023
-                  </p>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="#" id="sweetAlertIONE" style="text-decoration: none;">
+                <div class="team-detail wow bounce" data-wow-delay="0.4s"> <img src="images/ione.jpg" class="img-fluid"/>
+                  <h4>Industrias IONET</h4>
+                  <h6>Microsoft Developer</h6>
+                  <p>Feb. 2024 - Actual</p>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-------Empleos End-------> 
 
-        <div class="row my-5">  
-          <div class="col-sm-4 col-md-4 col-l-4 col-xl-4">
-            <a href="pag/blue.html" style="text-decoration: none;">
-              <div class="card">
-                <img class="card-img-top rounded mx-auto d-block mt-4" src="img/blue.jpg" alt="Bluetab" style="width:50%">
-                <div class="card-body text-center">
-                  <h4 class="card-title">Bluetab</h4>
-                  <p class="card-text" style="color: rgba(132, 132, 132, 0.976);">
-                    Technician
-                        <br>
-                   Sep. 2023 - Ene. 2024
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-sm-4 col-md-4 col-l-4 col-xl-4">
-            <a href="pag/ione.html" style="text-decoration: none;">
-              <div class="card">
-                <img class="card-img-top rounded mx-auto d-block mt-4" src="img/ione.jpg" alt="IONE" style="width:50%">
-                <div class="card-body text-center">
-                  <h4 class="card-title">Industrias IONET</h4>
-                  <p class="card-text" style="color: rgba(132, 132, 132, 0.976);">
-                    Microsoft Developer
-                        <br>
-                    Feb. 2024 - Actual
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
+<!-------Contact Start------->
+<section class="contact section-padding" data-scroll-index='3'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Contacto</h3>
+          <span class="line"></span>
         </div>
-    </section>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-3">
+              <a href="https://wa.me/5569125402?text=¡Hola,%20Oscar!%20:D%20" style="text-decoration: none;" target="_blank">
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                  <h5>WhatsApp</h5>
+                  <p>¡Mandame un mensaje para estar en contacto!</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="mailto:oscar.alexisrodriguez1@gmail.com" style="text-decoration: none;" target="_blank">
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"> <i class="fas fa-at" aria-hidden="true"></i>
+                  <h5>Correo</h5>
+                  <p>¿Prefieres los correos?</p>
+                  <p>Aqui te dejo el mío.</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://www.linkedin.com/in/oscar-alexis-rodriguez-rodriguez-107053194/" style="text-decoration: none;" target="_blank">
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fab fa-linkedin" aria-hidden="true"></i>
+                  <h5>Linkedin</h5>
+                  <p>Conectemos por Linkedin</p>
+                </div>
+              </a>
+            </div>
 
-    <!-- Sección tecnologías implementadas  -->
-    <section>
-      <h2 class="my-3 mx-2">Tecnologías implementadas</h2>
-      <div class="splide bg-secondary my-5">
-        <div class="splide__slider">
-          <div class="splide__track">
-            <ul class="splide__list">
-              <li class="splide__slide">
-                <img src="ico/netcore.ico" alt="netcore" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/php.ico" alt="php" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/css.ico" alt="css" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/html.ico" alt="html" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/c-sharp.ico" alt="c#" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/mysql.ico" alt="mysql" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/tfs.ico" alt="tfs" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/sql-server.ico" alt="sqlserver" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/js.ico" alt="js" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/full.ico" alt="full" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/java.ico" alt="java" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/gdev.ico" alt="gdev" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/xampp.ico" alt="xampp" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/git.ico" alt="git" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/telerik.ico" alt="telerik" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/angular.ico" alt="angular" style="width: 85px;">
-              </li>
-              <li class="splide__slide">
-                <img src="ico/asp.ico" alt="aps" style="width: 85px;">
-              </li>
+            <div class="col-md-3">
+              <a href="https://github.com/OscarAlexis124" style="text-decoration: none;" target="_blank">
+                <div class="icon-box wow fadeInUp" data-wow-delay="0.8s"> <i class="fab fa-github" aria-hidden="true"></i>
+                  <h5>GitHub</h5>
+                  <p>Visita mi repositorio de GitHub</p>
+                </div>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------Contact End-------> 
+<footer class="footer-copy">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <p>Oscar Alexis Rodriguez Rodriguez</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- scrollIt js --> 
+<script src="js/scrollIt.min.js"></script> 
+<script src="js/wow.min.js"></script>
+
+<script>
+  // Agregar un evento al enlace
+  document.getElementById('sweetAlertDological').addEventListener('click', function(event) {
+      event.preventDefault();  // Evita que el enlace navegue a otra página
+
+      // Mostrar SweetAlert con estructura personalizada
+      Swal.fire({
+          html: `
+           <!-- Sección Informativa (Imagen, titulo y fecha)  -->   
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="images/do.png" alt="Do.logical" style="width:60%;"
+                              class="img-fluid float-md-start mt-3 mb-3">                         
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                           <h3 class="mt-3 mb-3">
+                              Do.Logical
+                           </h3>
+                         
+                           <h5 class="mt-3 mb-3" style="color: rgba(132, 132, 132, 0.976);">
+                              Soporte tecnológico 
+                           </h5>
+                         
+                           <h8 style="color: rgba(132, 132, 132, 0.976);" class="mt-3 mb-3" >
+                            Sep. 2019 - Mar. 2020
+                           </h8>
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+          
+            <!-- Sección Experiencia -->  
+            <div class="container py-4">
+              <h1 class="mt-3 mb-3"> <strong>Experiencia Adquirida</strong> </h1>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Atención y soporte a empresas colaboradoras.</li>
+                <li class="list-group-item">Desarrollo y modificaciones de pantallas en Windows Forms con C#</li>
+                <li class="list-group-item">Diseño y modificaciones de tickets de cobro con herramientas de Telerik</li>
+              </ul>
+            </div>
+          `,
+          showCancelButton: true,
+          cancelButtonText: 'Cerrar',
+          showConfirmButton: false,
+          allowOutsideClick: false,
+          allowEscapeKey: false
+      });
+  });
+
+    document.getElementById('sweetAlertAceros').addEventListener('click', function(event) {
+      event.preventDefault();  // Evita que el enlace navegue a otra página
+
+      Swal.fire({
+          html: `
+           <!-- Sección Informativa (Imagen, titulo y fecha)  -->   
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="images/acero.jpg" alt="Aceros" style="width:60%;"
+                              class="img-fluid float-md-start mt-3 mb-3">                         
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                           <h3 class="mt-3 mb-3">
+                              Aceros Turia
+                           </h3>
+                         
+                           <h5 class="mt-3 mb-3" style="color: rgba(132, 132, 132, 0.976);">
+                              Desarrollardor Jr.
+                           </h5>
+                         
+                           <h8 style="color: rgba(132, 132, 132, 0.976);" class="mt-3 mb-3" >
+                            Nov. 2021 - Ago. 2022
+                           </h8>
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+            <!-- Sección Experiencia -->  
+            <div class="container py-4">
+              <h1 class="mt-3 mb-3"> <strong>Experiencia Adquirida</strong> </h1>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Creación e implementación de servicios de Windows en C# (.NET ver. 4.7.2) para el envio automáticos de correos electronicos.</li>
+                <li class="list-group-item">Creación e implementación de servicios de Windows en C# (.NET ver. 4.7.2) para lecturas de archivos txt.</li>
+                <li class="list-group-item">Creación y modición de base de datos SQL Server.</li>
+                <li class="list-group-item">Creación y modición de procedimientos almacenados.</li>
+                <li class="list-group-item">Creación de sistema de reporteo de ventas consumiendo informacion de SAP con graficos y exportación a Excel (PHP, HTML, Boostrap, CSS, JS, Google Charts)</li>
+                <li class="list-group-item">Creación de sistema de inventario (PHP, HTML, Boostrap, CSS, JS)</li>
+                <li class="list-group-item">Creación de sistema de KPI's con graficos y exportación a Excel (PHP, HTML, Boostrap, CSS, JS)</li>
+                <li class="list-group-item">Administración a sistemas ya implementados.</li>
+                <li class="list-group-item">Creación y analisis de reportes de venta.</li>
+              </ul>
+            </div>
+          `,
+          showCancelButton: true,
+          cancelButtonText: 'Cerrar',
+          showConfirmButton: false,
+          allowOutsideClick: false,
+          allowEscapeKey: false
+      });
+  });
+
+
+  document.getElementById('sweetAlertMaltia').addEventListener('click', function(event) {
+      event.preventDefault();  // Evita que el enlace navegue a otra página
+
+      Swal.fire({
+          html: `
+           <!-- Sección Informativa (Imagen, titulo y fecha)  -->   
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="images/mal.png" alt="Maltia" style="width:60%;"
+                              class="img-fluid float-md-start mt-3 mb-3">                         
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                           <h3 class="mt-3 mb-3">
+                              Cleversec
+                           </h3>
+                         
+                           <h5 class="mt-3 mb-3" style="color: rgba(132, 132, 132, 0.976);">
+                              Programador
+                           </h5>
+                         
+                           <h8 style="color: rgba(132, 132, 132, 0.976);" class="mt-3 mb-3" >
+                            Ago. 2022 - Sep. 2023
+                           </h8>
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+            <!-- Sección Experiencia -->  
+            <div class="container py-4">
+              <h1 class="mt-3 mb-3"> <strong>Experiencia Adquirida</strong> </h1>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Creación de servicios web con protocolos GET, POST, PUT, DELETE con respuestas en formato JSON. (3 Capas) (.NET ver. 4.7.2)</li>
+                <li class="list-group-item">Administración de base de datos SQL Server 2019.</li>
+                <li class="list-group-item">Creación y modificaciones a procedimientos almacenados.</li>
+                <li class="list-group-item">Desarrollo de componentes en Angular y consumo de web services con TypeScript.</li>
+                <li class="list-group-item">Creación e implementación de servicios creados en Sequealize.</li>
+                <li class="list-group-item">Creacion y modificaciones en ramas de GIT.</li>
+                <li class="list-group-item">Administración a sistemas ya implementados.</li>
+              </ul>
+            </div>
+          `,
+          showCancelButton: true,
+          cancelButtonText: 'Cerrar',
+          showConfirmButton: false,
+          allowOutsideClick: false,
+          allowEscapeKey: false
+      });
+  });
+
+  document.getElementById('sweetAlertBlue').addEventListener('click', function(event) {
+      event.preventDefault();  // Evita que el enlace navegue a otra página
+
+      Swal.fire({
+          html: `
+           <!-- Sección Informativa (Imagen, titulo y fecha)  -->   
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="images/blue.jpg" alt="Maltia" style="width:60%;"
+                              class="img-fluid float-md-start mt-3 mb-3">                         
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                           <h3 class="mt-3 mb-3">
+                              Bluetab
+                           </h3>
+                         
+                           <h5 class="mt-3 mb-3" style="color: rgba(132, 132, 132, 0.976);">
+                              Technician
+                           </h5>
+                         
+                           <h8 style="color: rgba(132, 132, 132, 0.976);" class="mt-3 mb-3" >
+                              Sep. 2023 - Ene. 2024
+                           </h8>
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+          <!-- Sección Experiencia -->  
+          <div class="container py-4">
+            <h1 class="mt-3 mb-3"> <strong>Experiencia Adquirida</strong> </h1>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Modificaciones en componentes e implementaciones en proyectos tipo Meaven con Java.</li>
+              <li class="list-group-item">Levantamientos de requerimientos.</li>
+              <li class="list-group-item">Certificación de curso “SAFe Certified SAFe 6 Scrum Master”.</li>
             </ul>
           </div>
-        </div>
-      </div>
-    </section>
+          `,
+          showCancelButton: true,
+          cancelButtonText: 'Cerrar',
+          showConfirmButton: false,
+          allowOutsideClick: false,
+          allowEscapeKey: false
+      });
+  });
 
-    <script src="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-  </body>
+  document.getElementById('sweetAlertIONE').addEventListener('click', function(event) {
+      event.preventDefault();  // Evita que el enlace navegue a otra página
+
+      Swal.fire({
+          html: `
+           <!-- Sección Informativa (Imagen, titulo y fecha)  -->   
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="content">
+                            <img src="images/ione.jpg" alt="Maltia" style="width:60%;"
+                              class="img-fluid float-md-start mt-3 mb-3">                         
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                           <h3 class="mt-3 mb-3">
+                              Industrias IONET
+                           </h3>
+                         
+                           <h5 class="mt-3 mb-3" style="color: rgba(132, 132, 132, 0.976);">
+                              Microsoft Developer
+                           </h5>
+                         
+                           <h8 style="color: rgba(132, 132, 132, 0.976);" class="mt-3 mb-3" >
+                              Feb. 2024 - Actual
+                           </h8>
+                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+            <!-- Sección Experiencia -->  
+            <div class="container py-4">
+              <h1 class="mt-3 mb-3"> <strong>Experiencia Adquirida</strong> </h1>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Desarrollo de API REST en C# con metodos POST, PUT, GET, DELETE y repuestas en formato JSON.</li>
+                <li class="list-group-item">Creacion / modificacion de tablas y bases de datos relacionales en SQL Server.</li>
+                <li class="list-group-item">Desarrollo de servicios en arquitectura Windows Communication Foundation (WCF)</li>
+                <li class="list-group-item">Documentacion de requerimientos</li>
+                <li class="list-group-item">Levantamientos de requerimientos.</li>
+                <li class="list-group-item">Desarrollo de ERP/CRM con C# (ASP.NET ver. 4.6.2) con componentes de TELERIK, implementacion de FullCalendar e impresion de tickets. (Arquitectura de 3 capas (BD, WCF, ASPX))</li>
+                <li class="list-group-item">Desarrollo de herramienta de reporte de contabilidad con lectura y exportación de documenntos en formato Excel</li>
+                <li class="list-group-item">Modificaciones a paginas web de clientes.</li>
+              </ul>
+            </div>
+          `,
+          showCancelButton: true,
+          cancelButtonText: 'Cerrar',
+          showConfirmButton: false,
+          allowOutsideClick: false,
+          allowEscapeKey: false
+      });
+  });
+
+</script>
+
+<script>
+	wow = new WOW();
+	wow.init();
+    
+$(window).on("scroll",function () {
+
+	var bodyScroll = $(window).scrollTop(),
+	navbar = $(".navbar");
+	
+	if(bodyScroll > 50){
+	$('.navbar-logo img').attr('src','images/logo-black.png');
+	navbar.addClass("nav-scroll");
+
+}else{
+	$('.navbar-logo img').attr('src','images/logo.png');
+	navbar.removeClass("nav-scroll");
+}
+
+});
+$(window).on("load",function (){
+	var bodyScroll = $(window).scrollTop(),
+	navbar = $(".navbar");
+	
+	if(bodyScroll > 50){
+	$('.navbar-logo img').attr('src','images/logo-black.png');
+	navbar.addClass("nav-scroll");
+	}else{
+	$('.navbar-logo img').attr('src','images/logo-white.png');
+	navbar.removeClass("nav-scroll");
+	}
+
+	$.scrollIt({
+	
+	easing: 'swing',      // the easing function for animation
+	scrollTime: 900,       // how long (in ms) the animation takes
+	activeClass: 'active', // class given to the active nav element
+	onPageChange: null,    // function(pageIndex) that is called when page is changed
+	topOffset: -63
+	});
+});
+
+</script>
+</body>
 </html>
