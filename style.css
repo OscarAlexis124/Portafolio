@@ -258,16 +258,6 @@ h6 {
 	font-weight: 700;
 }
 
-.footer-copy {
-	background: #ffffff;
-	color: #242424;
-	font-size: 13px;
-	text-align: center;
-	padding:15px 0px;
-}
-.footer-copy p {
-	margin-bottom:0px;
-}
 @media all and (max-width:991px) {
 .navbar .navbar-collapse {
 	overflow: auto;
